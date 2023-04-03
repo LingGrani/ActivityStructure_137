@@ -22,17 +22,17 @@ int main()
 	cin >> mhs.NIM;
 	cout << "Masukan Nama: ";
 	cin >> mhs.Nama;
-	cout << "Masukan Alamat: \n";
-	cout << "\tDesa: ";
+	cout << "Masukan Alamat: ";
+	cout << "\n\tMasukan Desa: ";
 	cin >> mhs.Alamat.Desa;
-	cout << "\tKota: ";
+	cout << "\tMasukan Kota: ";
 	cin >> mhs.Alamat.Kota;
 	cout << "Masukan Umur: ";
 	cin >> mhs.Umur;
 
-	cout << "\nNIM = " << mhs.NIM;
+	cout << "\n\nNIM = " << mhs.NIM;
 	cout << "\nNama = " << mhs.Nama;
-	cout << "\nAlamat Desa = " << mhs.Alamat.Desa;
-	cout << "\nAlamat Kota = " << mhs.Alamat.Kota;
+	cout << "\nDesa = " << mhs.Alamat.Desa;
+	cout << "\nKota = " << mhs.Alamat.Kota;
 	cout << "\nUmur = " << mhs.Umur;
 }
